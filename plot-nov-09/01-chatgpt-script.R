@@ -87,7 +87,7 @@ ggplot(data, aes(x = Variable, y = Mean, fill = Time)) +
                 size = 0.8) +
   labs(title = "Comparison of Measurements Before and After DPMAS", 
        subtitle = paste("n =", n_value, "| P values < 0.001"),
-       y = "Mean ± SD", x = "Measurements") +
+       y = "Mean + SD", x = "Measurements") +
   theme_minimal() +
   scale_fill_viridis_d() +
   theme(plot.title = element_text(hjust = 0.5),
